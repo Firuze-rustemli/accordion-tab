@@ -1,0 +1,51 @@
+ul, li {
+    padding: 0px;
+    margin: 0px;
+}
+
+.tab {
+    margin-top: 25px;
+}
+
+.tab .actions li {
+    display: inline;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.tab .actions li.active {
+    background-color: #ccc;
+}
+
+.tab-content {
+    padding: 15px;
+    background-color: #ccc;
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+/* //acodrdion */
+
+.accordion{
+    list-style-type: none;
+}
+.accordion li{
+    margin-bottom: 10px;
+}
+.accordion li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, 0.78);
+    display: block;
+    color: white;
+}
+.accordion .inner{
+    display: none;
+}
+.accordion .inner p{
+    margin: 0px;
+    padding: 10px 0px;
+}
